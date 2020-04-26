@@ -1,0 +1,21 @@
+package com.cg.iter.service;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * Entity implementation class for Entity: AuthorServiceImpl
+ *
+ */
+@Entity
+
+public class AuthorServiceImpl implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+
+	public AuthorServiceImpl() {
+		super();
+	}
+   
+}
